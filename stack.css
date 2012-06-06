@@ -1,7 +1,9 @@
 body {
   background: #929292;
-  font-family: "Helvetica Neue";
+  font-family: "Yanone Kaffeesatz";
   margin: auto;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
   width: 1280px;
 }
 
@@ -31,17 +33,42 @@ a:not(:hover) {
   position: fixed;
 }
 
-
 h1 {
   font-size: 72px;
   margin-top: 0;
 }
 
-.big h1 {
-  text-align: center;
-  margin-top: 300px;
-  font-size: 256px;
+h1.double {
+  top: 80px;
 }
+
+.big h1 {
+  margin-top: 200px;
+  font-size: 100px;
+  line-height: 1.0em;
+}
+
+.blue,
+.html .tag,
+.css .tag,
+.javascript .keyword {
+  color: #6baed6;
+}
+
+.orange,
+.html .attribute,
+.css .attribute,
+.javascript .class,
+.javascript .special {
+  color: #fd8d3c;
+}
+
+.green,
+.html .doctype,
+.javascript .number {
+  color: #74c476;
+}
+
 
 @media
 screen and (-webkit-min-device-pixel-ratio: 2),

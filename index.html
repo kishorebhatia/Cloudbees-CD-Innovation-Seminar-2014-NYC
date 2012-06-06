@@ -1,110 +1,303 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
-
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 @import url(stack.css);
-
 </style>
+
 <body class="overview">
 
 <section>
-  <h1><a href="https://github.com/mbostock/stack">stack.js</a></h1>
+  <h1 class="double">Building Great Teams - Hiring in a post-<span class="blue">DevOps</span> world</h1>
+  <p>How to hire (or get hired!) into a collaborative engineering team.
+  <p>
+  <p>Rich Paret - <a href="https://twitter.com/#!/richparet">@richparet</a>
+<a href="https://github.com/rparet/devops-hiring-collaborative-teams"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  <p style="position:absolute;bottom:0;">Built with <a href="http://mbostock.github.com/stack/">stack.js</a>.
+</section>
 
-  <p>A presentation library with intuitive, scroll-based navigation.
+<section style="background:url(himank2.jpg); width:1200px; height:600px; border: 0;">
+	<h1 style="position:absolute;bottom:0;color:white;">Hi.</h1>
+	<!--
+  First off, thanks very much to Vikram and Officedrop for hosting this. Meetups like this are a valuable part of our tech community and I'm grateful to the organizers for making this happen and humbled to be able to share with you what I've learned about building engineering teams. This is such a broad topic though, so tonight I'm going to try and focus on hiring. 
 
-  <p style="position:absolute;bottom:0;">Built with <a href="http://mbostock.github.com/d3/">d3.js</a>.
+  But first, a quick survey. How many people are interested in hearing about the hiring manager side of things, how to build a collaborative team?  How many people are interested in hearing about how to get hired onto a collaborative team? How many people just came for the pizza? Ok. :) I'm only going to talk for like 30 minutes, tops so if you have questions about specific problems you are having, just ask me.
+  -->
 </section>
 
 <section>
-  <h1>Crossfades</h1>
+  <h1><span class="blue">DevOps</span> is primarily about culture change</h1>
 
-  <p>Sneak a peek at the next slide by scrolling down and back.
+  <h1 style="position:absolute;bottom:0;">If you're only talking about changing processes, and not the culture behind them, you're doing a <a href="http://en.wikipedia.org/wiki/Cargo_cult_programming">cargo cult</a> adoption.<h1>
+    <!-- 
+    DevOps is about culture change from siloed ways of working to non-siloed and understanding that is key to hiring.  
+
+    Before we can really get started talking about hiring and building teams we have to agree on some fundamentals. There are certainly a lot of opinions on what DevOps is all about. For the purposes of this talk, I'm going to give you my definition.
+    -->
 </section>
 
 <section>
-  <h1 style="position:absolute;bottom:0;">PEEK-A-BO! I see you!</h1>
+  <h1>The Big Idea</h1>
+
+  <p style="font-size: 65px;"><span class="blue">Organizing your engineering department by</span> functional area<span class="blue">(Dev, Test, Ops) is almost certainly a bad way to build and operate a product or service.</span></p>
+  <p style="margin-top: 300px;">Coming to terms with what this means for your organization right now is key to making correct hiring decisions.
+    <!--
+    DevOps is about culture change. What culture change, specifically? It's about the idea that organizing your engineering department by functional area or specialty is almost certainly a bad way to build a product or service. 
+
+    DevOps is an idea about how teams and organizations should be structured. Ultimately, it's about the end of functional specializations and the end of silos.
+
+    This has a profound profound impact on the way you think about designing your organization, and of course, on hiring. Accepting that the idea of DevOps is a good thing and we should be targeting more collaboration and less organization-by-specialization puts us in a post-DevOps world.
+    -->
 </section>
 
-<section style="background:url(beach.jpg);margin-left:128px;width:944px;">
-  <h1 style="position:absolute;bottom:0;color:white;">Variable-width Slides</h1>
+<section class="big">
+	<h1>Hire for the culture you have, and the <span class="green">culture you want to have.</span></h1>
+	<!--
+  Hire for the culture you have, and the culture you want to have.
+
+  Know what you're hiring for. 
+
+  Hiring managers! The most important thing you can do is get real with yourself, your team, and any candidates about where you are in this culture change process.
+  You need to hire to fit your situation, and your goal. Are you just beginning to talk about cultural change? Trying to sharpen up your "DevOps team" Trying to evolve an ops mindset from scratch? 
+
+  -->
 </section>
 
 <section>
-  <h1>Scroll-Happy</h1>
+	<h1>Eng/Ops Maturity Model</h1>
+	<h3 style="text-align:center;margin-top: 100px;font-size: 65px;">0 - Functional Organization<br>
+	   1 - Mini-Matrix<br>
+	   2 - Feature Teams<br>
+	   3 - Ops ∈ Engineering<br>
+	 </h3>
+	 
+	 <p style="margin-top: 250px;">The types are differentiated by the amount of <span class="green">collaboration</span> present between team members.
+	   <!-- 
+     0 - Functional Organization. Separate teams based on area or speciality. SW/QA/DBA/Ops, usually with separate management and a hierarchical structure. 
+     1 - The Mini-Matrix. Still functional. Some "coordination scaffolding", usually around releases. Sometimes people wear a hat called "Release Engineer"
+     2 - Feature Teams! Now we're rolling! Software and QA are on the same team, teams are organized around features, not specialities. Ops might still be separate though. 
+     3 - Operational mindset across engineering. No formal "Ops group", although some feature teams may be "Ops-y" (ie. teams whose feature is infrastructure consumed by other teams and thus may have a larger number of people with systems backgrounds )
 
-  <p>Scroll many slides at once with a flick of the wrist.
-  <br>Or, grab the scrollbar on the slide and jump around.
+     Point: DevOps as a term really is describing both the need to change from functional orgs, and what the intermediate stages look like. Communication between silos.
+
+     So, just as a frame of reference. Type Zero is not where you want to be. Remember my thesis at the beginning of this talk. This is a bad place, long term, for your business. DevOps as an idea is a response to this. Type 1 and Type 2 are the Arch-ae-opt-eryx - the intermediate form. These are what I think are reasonable steps on the way to the goal, which is getting an Operational mindset across all of Engineering.
+
+     -->
 </section>
 
-<section class="big">
-  <h1>9</h1>
-</section>
+<section style="background:url(arenal.jpg); width:1200px; height:600px; border: 0; color:white;">
+  <h1 style="position:absolute;bottom:0;color:white;">People</h1>
+  <!-- People 
 
-<section class="big">
-  <h1>8</h1>
-</section>
+  Who to hire: 
 
-<section class="big">
-  <h1>7</h1>
-</section>
+  Whew. Ok so now that we've got the big ideas around culture change tacked down, let's talk about hiring folks to help us with this.
+  Near the very beginning of my career I was incredibly fortunate to be mentored by an exceptionally talented leader. He told me his secret to hiring, it's stuck with me through many jobs and companies, and I'm going to share it with you now.
 
-<section class="big">
-  <h1>6</h1>
-</section>
+  He said that when you are hiring, and you look at candidates here's how you should prioritize the multiple facets of information you get about a a potential hire.
 
-<section class="big">
-  <h1>5</h1>
-</section>
+  1. Attitude
+  2. Aptitude
+  3. Skill set
 
-<section class="big">
-  <h1>4</h1>
-</section>
+  The ordering is important - he viewed, and there is data to support this (for example if you read things like 'First, Break All the Rules'), that people don't really change all that much, from an Attitude perspective. That is, they don't typically change their innate behaviors. So getting folks who have the right attitude is critical. This doesn't mean you should only hire people who are super-positive and pack pom-poms in their bag when they go to work every day - far from it. What I'm talking about are specific behaviors that will enable to to be successful in a collaborative environment. 
 
-<section class="big">
-  <h1>3</h1>
-</section>
-
-<section class="big">
-  <h1>2</h1>
-</section>
-
-<section class="big">
-  <h1>1</h1>
-</section>
-
-<section>
-  <h1>Snap-to Scrolling</h1>
-
-  <p>If you stop between slides, the stack will drift to the closest slide.
+  -->
 </section>
 
 <section>
-  <h1>Edge Detection</h1>
+  <h1>Attitude is about the right behaviors.</h1>
+  
+  <h1 style="position:absolute;bottom:0;">What do you <span class="blue">do</span> with what you <span class="orange">know</span>?</h1>
+  <!--
 
-  <p>If you scroll up, the previous slide is immediately visible.
-  <br>If you scroll down, the next slide is immediately visible.
-  <p>(This would be more robust if WebKit supported touch events!)
+  Johanna Rothman has done some incredible writing about making software engineering teams successful, and here are her 6 behaviors to look for:
+
+  It's my belief that developing your strategy to hire folks that exhibit these behaviors will allow you to be successful at both sustaining culture change and working in a collaborative engineering team.
+
+  -->
 </section>
 
 <section>
-  <h1>Keyboard Shortcuts</h1>
+	<h1>Six behaviors</h1>
+	
+	<li>People who can collaborate
+	<li>People who can ask for help
+	<li>People who are willing to take small steps and get feedback
+	<li>People who will do something that is good enough for now
+	<li>Adaptable people
+	<li>People willing to work outside their expertise
 
-  <p>up / down / left / right
-  <br>page up / page down
-  <br>home / end
-  <br>space / shift-space
-
-  <p>Press up or down multiple times, and it does the right thing!
+  <p style="position:absolute;bottom:0;">From Johanna Rothman's <a href="http://www.slideshare.net/johannarothman/six-behaviors-for-agile-team">"Six Behaviors to Consider for an Agile Team"</a>
 </section>
 
 <section>
-  <h1>More Features! [to-do]</h1>
+ <h1>Aptitude</h1>
+ <h1 style="position:absolute;bottom:0;">What do you <span class="blue">know</span>, what can you <span class="orange">learn</span>?</h1>
+ 
+ <!--
 
-  <p>Zoom-out overview?
-  <br>Anchor fragments.
-  <br>Auto-loading iframes for resource-expensive slides.
-  <br>iOS & non-WebKit browser testing.
+ Aptitude - This is where the bulk of traditional behavioral interviews come in. When Joel Spolsky says "smart and gets things done", the "smart" part is aptitude. How quickly can they ramp up on your problem? How easily can they navigate their way to a novel solution? 
+
+ -->
+ 
+</section>
+
+<section>
+ <h1>Skillset</h1>
+ <br><br>
+ <h1 style="text-align: center; font-size: 456px;">T</h1>
+ <h1 style="position:absolute;bottom:0;"><span class="orange">"T"</span>-shaped people</h1>
+ <!--
+
+ Skill set - This is the least important, especially on a collaborative team. Note that this is almost a complete inversion from a functional organization, where new talent is evaluated on their skills relative to the other experts already in place. "Is the new guy more knowledgable about Javascript than me?" However, I don't want you walking out of here thinking that the message is "fire the experts". Expertise in areas is still extremely important, after all, it's in the top 3! However, unlike the first two facets, expertise in an area can be cultivated, often times with shocking rapidity, by folks with the right attitude and aptitude. 
+
+ "T-shaped people". This is just a fancy way of saying people that are both broad and deep. Folks that might describe themselves as "Jack-of-all-trades", but (and this is important) they have deep expertise in a particular area. That deep expertise is the vertical leg of the T. Don't hire experts that don't have enough general skills (they're too narrow), don't hire generalists who don't get deep in a specific area (they'll struggle to make more than a skin-deep contribution).
+
+ -->
+</section>
+
+<section style="background:url(scuba.jpg); width:1200px; height:600px; border: 0; color:white;">
+  <h1 style="position:absolute;bottom:0;color:white;">Your Hiring Machine</h1>
+</section>
+
+<section>
+ <h1>You don't need to be an expert to hire well!</h1>
+ <h1 style="position:absolute;bottom:0;">You do have to build a <span class="blue">process for hiring</span>, and continually inspect it to make sure you're getting the results you want.</h1>
+ <!--
+
+ You don't need to be a hiring expert to hire well. 
+
+ Full disclosure: I am not a hiring expert and a full discussion on this topic is way outside the scope of this talk. 
+ But it turns out that if you want to build awesome products at scale, you need to hire people and it also turns out that hiring well, although difficult, leads to you having an awesome time at work, and also awesome products.
+
+ I am someone who builds products and product teams, so I know (and want to know) just enough to be dangerous. I am a T-shaped person, but definitely a hiring generalist.
+
+ -->
+</section>
+
+<section>
+ <h1>Read these books</h1>
+	<li>Joel Spolsky - <a href="http://amzn.com/1590598385">Smart and Gets Things Done</a>
+	<li>Johanna Rothman - <a href="http://amzn.com/0932633595">Hiring the Best Knowledge Workers, Techies & Nerds</a>
+	<li>Brad Smart - <a href="http://amzn.com/0345504194">Who - The A Method for Hiring</a>
+	<h1 style="position:absolute;bottom:0;">Focus on <span class="orange">outcomes.</span> Are you seeing the changes you want?</h1>
+	<!--
+
+  Read these books. They aren't that long, and you may not find them particularly insightful, but these books really give you the template for how to craft a hiring strategy, how to interview (which could really be a talk all on its own), how to make job offers candidates will actually accept, and more. 
+
+  -->
+</section>
+
+
+<section>
+  <h1>A Real-world example of a hiring machine</h1>
+  <h3 style="line-height: 1.5em;">Job Identification ↦<br>
+   Sourcing ↦ Phone Screen ↦ Audition ↦<br>
+   In-Person Technical ↦ In-Person Topgrading ↦ In-Person Founder Fit ↦<br>
+   Offer ↦ Onboarding<br>
+  </h3>  
+  <h1 style="position:absolute;bottom:0;">The hiring team spends <span class="orange">twice as much time</span> on culture fit, on average, than on technical fit.</h1> 
+  <!--
+  The Big Idea here is that you should put in the work up front to create a hiring machine, tune it, keep it consistent, etc.
+
+  I'm going to show you what my hiring machine looks like at my current job. 
+
+  The hiring team spends about twice as much time assessing cultural fit for a candidate than technical fit. Note that the candidate spends a bunch of time on the audition that we don't see, so in terms of total time spent by everyone its about the same - but the audition saves us a ton of time, and so that's what we're optimizing for. 
+
+  -->
+</section>
+
+<section>
+	<h1>I have all this Ops stuff I need to do...</h1>
+	<h2 style="line-height: 1.5em;">Logging<br>
+	Monitoring<br>
+	Deployments<br>
+	Configuration Management<br>
+	</h2>
+	<h1 style="position:absolute;bottom:0;"><span class="green">"Boundary Objects"</span> - This is the vertical part of your "T"!</h1>	
+	<!--
+
+  We can talk more about how to find great developers, but the truth is when people ask me for help, they've yet to say "how do I get my developers to wear a pager"? The question they always asks is "how do we find ops guys to help us solve X operational problem?"
+  Usually this is where people like Patrick Debois talk about Boundary objects, places where Dev and Ops silos naturally overlap. That's Feedback from services in the form of Logging/Monitoring/Alerting, Delivery of Software to Customers, as well as things like Configuration Management.
+
+  The problem is frequently framed to me as "we have to build a team to take care of this stuff", as if its a separate, non-value-added part of your business. That's only inviting more confusion. What you really want to be doing is saying "how can we hire people who will teach us to make this stuff one of our core engineering competencies?" This is what I mean when I say extending the operational mindset to all of engineering.
+
+  So if you want to make this one of your core competencies, you should be out there hiring generalists with specializations in one or more of these boundary areas. You need to look at people who talk a lot about Logging, Config Management, Continuous Delivery whether that's on their resume, or they are blogging about it, or they are contributing to open source projects. 
+
+  -->		
+</section>
+
+<section class="big">
+  <h1>Build <span class="green">Boundary Objects</span> so that they can be absorbed completely by Engineering!</h1> 
+</section>
+
+<section>
+	<h1>Where to find people</h1>
+	
+	<li>Traditional recruiting sources: Recruiters, LinkedIn, Job boards, etc.
+	<li><b>Your personal network</b>
+	<li>Networks that provide some evidence of good interests / behaviors: Github, Meetups (Hi!)	
+	<h1 style="position:absolute;bottom:0;">Don't be afraid to <span class="orange">ramp up</span> people who have right right culture fit!</h1>
+	<!--
+
+  Sourcing. 
+
+  Recruiters still #1, and of course still the most expensive.
+  Networking Personal network, Events like this. LinkedIn. Conferences.
+  Targeted job boards. Stackoverflow careers being the big one.
+  Stalking projects on github. If you are a technical team lead or a manager, develop relationships with the contributors/package maintainers of the open source software you use. At my previous job we open-sourced some of our own tools, which is a great lead development vehicle for finding talent. I think some of my team were also committers to graphite, so that gets you involved with an important project and gets you exposed to other folks doing interesting stuff.
+  In terms of qualified leads per dollar spent, I've had great results posting in the monthly "Who's Hiring?" thread on Hacker News.
+
+  -->	
+</section>
+
+<section>
+  <h1>One last (culture) thing...</h1>
+  <h3>Stackoverflow Careers did a great <a href="http://blog.stackoverflow.com/2011/08/how-to-write-a-great-developer-job-listing/">blog post</a> on what makes a job ad attractive to candidates</h3>
+  The 3 factors they found resulted in the most applications for jobs were these (in order):
+  <li>Culture description in the job posting. 
+  <li>Is the work described cool? 
+  <li>Few bullets in post description.
+  <h1 style="position:absolute;bottom:0;"><span class="green">Culture, culture, culture. :)</span></h1>
+  
+  <!--
+
+  The folks at StackOverflow Careers did a great blog post on how to write a great developer job listing.
+
+  The 3 factors they found resulted in the most applications for jobs were these (in order):
+  Culture description in the job posting. 
+  Is the work described cool? 
+  Few bullets in post description.
+
+  So again we're talking about cultural fit being the #1 thing, but this time it's on the job-seeker side.
+  In their blog post they say: if you have a great culture, write about it in your job listing. If not, go create one, then write about it. 
+
+  That's about the best advice I can give you as well. 
+
+  -->
+</section>
+
+<section class="big" style="text-align:center;">
+  <h1>Thanks!</h1>
+  
+  Follow me on Twitter! <br>
+  <a href="https://twitter.com/#!/richparet">@richparet</a>
+  <!--
+
+  Thanks.
+
+  You should follow me on twitter: @richparet. I'm very low volume on the tweets because I spend most of my time building stuff, not talking about building stuff. You should tweet me feedback, what you liked, what you want to hear more (or less of, etc.) I'd be grateful.
+
+  I'm also giving a version of this talk at PuppetCamp in Boston on June 22nd which is a free event that you should all go to. 
+
+  Last thing, I'm not pitching my company or even trying to hiring DevOps-y people, but if you know some T-shaped people who go deep in building scalable web services and/or building amazing front ends with Javascript, I would appreciate an introduction.
+
+  Thank you again!
+
+  -->
 </section>
 
 <script src="d3.v2.js?2.7.3"></script>
 <script src="stack.v0.js"></script>
+
