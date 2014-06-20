@@ -1,2 +1,2 @@
 # 
-A talk on hiring I gave at the Boston DevOps meetup on 6/5/2012. 
+My notes from the Cloudbees Continuous Delivery Innovation Semminar at NYC - 6/19/2014. 
